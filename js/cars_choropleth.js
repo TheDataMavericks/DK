@@ -3,40 +3,53 @@ Plotly.d3.csv('https://raw.githubusercontent.com/TheDataMavericks/DK/master/js/c
           return rows.map(function(row) { return row[key]; });
       }
 
-    var data = [{
-    type: 'choropleth',
-    locationmode: 'USA-states',
-    locations: unpack(rows, 'code'),
-    z: unpack(rows, 'inventory'),
-    text: unpack(rows, 'state'),
-    zmin: 0,
-    zmax: 100000,
-    colorscale: [
-        [0, 'rgb(242,240,247)'], [5000, 'rgb(218,218,235)'],
-        [15000, 'rgb(188,189,220)'], [50000, 'rgb(158,154,200)'],
-        [75000, 'rgb(117,107,177)'], [100000, 'rgb(84,39,143)']
-    ],
-    colorbar: {
-        title: 'Cars',
-        thickness: 0.2
-    },
-    marker: {
-        line:{
-            color: 'rgb(255,255,255)',
-            width: 2
-        }
-    }
-}];
+      var scl = [[0,'rgb(5, 10, 172)'],[0.35,'rgb(40, 60, 190)'],[0.5,'rgb(70, 100, 245)'], [0.6,'rgb(90, 120, 245)'],[0.7,'rgb(106, 137, 247)'],[1,'rgb(220, 220, 220)']];
 
-
-var layout = {
-    title: 'US Car Sales by State',
-    geo:{
-        scope: 'usa',
-        showlakes: true,
-        lakecolor: 'rgb(255,255,255)'
-    }
-};
-
-Plotly.plot(myDiv, data, layout, {showLink: false});
-});
+      var data = [{
+          type:'scattergeo',
+          locationmode: 'USA-states',
+          lon: unpack(rows, 'Longitude'),
+          lat: unpack(rows, 'Latitude'),
+          hoverinfor:  unpack(rows, 'State'),
+          text:  unpack(rows, 'inventory'),
+          mode: 'markers',
+          marker: {
+              size: 8,
+              opacity: 0.8,
+              reversescale: true,
+              autocolorscale: false,
+              symbol: 'square',
+              line: {
+                  width: 1,
+                  color: 'rgb(102,102,102)'
+              },
+              colorscale: scl,
+              cmin: 0,
+              color: unpack(rows, 'inventory'),
+              colorbar: {
+                  title: 'Inventory of Cars across USA'
+              }
+          }
+      }];
+  
+  
+      var layout = {
+          title: 'Most Cars per State',
+          colorbar: true,
+          geo: {
+              scope: 'usa',
+              projection: {
+                  type: 'albers usa'
+              },
+              showland: true,
+              landcolor: 'rgb(250,250,250)',
+              subunitcolor: 'rgb(217,217,217)',
+              countrycolor: 'rgb(217,217,217)',
+              countrywidth: 0.5,
+              subunitwidth: 0.5
+          }
+      };
+  
+      Plotly.plot(myDiv, data, layout, {showLink: false});
+  
+  });
