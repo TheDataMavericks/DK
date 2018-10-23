@@ -10,11 +10,11 @@ Plotly.d3.csv('https://raw.githubusercontent.com/TheDataMavericks/DK/master/js/c
     z: unpack(rows, 'inventory'),
     text: unpack(rows, 'state'),
     zmin: 0,
-    zmax: 17000,
+    zmax: 100000,
     colorscale: [
-        [0, 'rgb(242,240,247)'], [2500, 'rgb(218,218,235)'],
-        [5000, 'rgb(188,189,220)'], [7500, 'rgb(158,154,200)'],
-        [10000, 'rgb(117,107,177)'], [15000, 'rgb(84,39,143)']
+        [0, 'rgb(242,240,247)'], [5000, 'rgb(218,218,235)'],
+        [15000, 'rgb(188,189,220)'], [50000, 'rgb(158,154,200)'],
+        [75000, 'rgb(117,107,177)'], [100000, 'rgb(84,39,143)']
     ],
     colorbar: {
         title: 'Cars',

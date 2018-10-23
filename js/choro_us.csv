@@ -1,52 +1,52 @@
-code,inventory,state
- TX,94654,Texas
- CA,80468,California
- FL,73313,Florida
- GA,39623,Georgia
- IL,38680,Illinois
- NC,37530,North Carolina
- VA,35259,Virginia
- PA,28130,Pennsylvania
- NY,27932,New York
- NJ,27852,New Jersey
- OH,23311,Ohio
- WA,23149,Washington
- CO,23004,Colorado
- AZ,22464,Arizona
- TN,19166,Tennessee
- MA,17990,Massachusetts
- MD,17707,Maryland
- IN,16465,Indiana
- MO,16165,Missouri
- KY,13691,Kentucky
- AL,13293,Alabama
- WI,11255,Wisconsin
- MN,10996,Minnesota
- CT,10906,Conneticut
- UT,10418,Utah
- OR,10352,Oregon
- MI,10328,Mississippi
- SC,9790,South Carolina
- OK,9584,Oklahoma
- LA,8528,Los Angeles
- KS,7894,Kansas
- AR,6952,Arkansas
- NV,6887,Nevada
- MS,6242,Mississippi
- NH,5694,New Hampshire
- NE,4924,Nebraska
- IA,4840,Iowa
- NM,4729,New Mexico
- ID,3501,Indiana
- HI,2995,Hawaii
- DE,2418,Delaware
- MT,1984,Montana
- ME,1920,Maine
- RI,1858,Rhode Island
- AK,1663,Alaska
- WV,1501,West Virginia
- SD,1267,South Dakota
- VT,1123,Vermont
- ND,1092,North Dakota
- WY,610,Wyoming
- DC,25,Washington D.C.
+code,category,state,inventory
+ TX,state,Texas,94654
+ CA,state,California,80468
+ FL,state,Florida,73313
+ GA,state,Georgia,39623
+ IL,state,Illinois,38680
+ NC,state,North Carolina,37530
+ VA,state,Virginia,35259
+ PA,state,Pennsylvania,28130
+ NY,state,New York,27932
+ NJ,state,New Jersey,27852
+ OH,state,Ohio,23311
+ WA,state,Washington,23149
+ CO,state,Colorado,23004
+ AZ,state,Arizona,22464
+ TN,state,Tennessee,19166
+ MA,state,Massachusetts,17990
+ MD,state,Maryland,17707
+ IN,state,Indiana,16465
+ MO,state,Missouri,16165
+ KY,state,Kentucky,13691
+ AL,state,Alabama,13293
+ WI,state,Wisconsin,11255
+ MN,state,Minnesota,10996
+ CT,state,Conneticut,10906
+ UT,state,Utah,10418
+ OR,state,Oregon,10352
+ MI,state,Mississippi,10328
+ SC,state,South Carolina,9790
+ OK,state,Oklahoma,9584
+ LA,state,Los Angeles,8528
+ KS,state,Kansas,7894
+ AR,state,Arkansas,6952
+ NV,state,Nevada,6887
+ MS,state,Mississippi,6242
+ NH,state,New Hampshire,5694
+ NE,state,Nebraska,4924
+ IA,state,Iowa,4840
+ NM,state,New Mexico,4729
+ ID,state,Indiana,3501
+ HI,state,Hawaii,2995
+ DE,state,Delaware,2418
+ MT,state,Montana,1984
+ ME,state,Maine,1920
+ RI,state,Rhode Island,1858
+ AK,state,Alaska,1663
+ WV,state,West Virginia,1501
+ SD,state,South Dakota,1267
+ VT,state,Vermont,1123
+ ND,state,North Dakota,1092
+ WY,state,Wyoming,610
+ DC,state,Washington D.C.,25
