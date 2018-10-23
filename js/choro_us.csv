@@ -1,52 +1,51 @@
-﻿code,category,state,inventory
- AK,state,Alaska,1663
- AL,state,Alabama,13293
- AR,state,Arkansas,6952
- AZ,state,Arizona,22464
- CA,state,California,80468
- CO,state,Colorado,23004
- CT,state,Conneticut,10906
- DC,state,Washington D.C.,25
- DE,state,Delaware,2418
- FL,state,Florida,73313
- GA,state,Georgia,39623
- HI,state,Hawaii,2995
- IA,state,Iowa,4840
- ID,state,Indiana,3501
- IL,state,Illinois,38680
- IN,state,Indiana,16465
- KS,state,Kansas,7894
- KY,state,Kentucky,13691
- LA,state,Los Angeles,8528
- MA,state,Massachusetts,17990
- MD,state,Maryland,17707
- ME,state,Maine,1920
- MI,state,Mississippi,10328
- MN,state,Minnesota,10996
- MO,state,Missouri,16165
- MS,state,Mississippi,6242
- MT,state,Montana,1984
- NC,state,North Carolina,37530
- ND,state,North Dakota,1092
- NE,state,Nebraska,4924
- NH,state,New Hampshire,5694
- NJ,state,New Jersey,27852
- NM,state,New Mexico,4729
- NV,state,Nevada,6887
- NY,state,New York,27932
- OH,state,Ohio,23311
- OK,state,Oklahoma,9584
- OR,state,Oregon,10352
- PA,state,Pennsylvania,28130
- RI,state,Rhode Island,1858
- SC,state,South Carolina,9790
- SD,state,South Dakota,1267
- TN,state,Tennessee,19166
- TX,state,Texas,94654
- UT,state,Utah,10418
- VA,state,Virginia,35259
- VT,state,Vermont,1123
- WA,state,Washington,23149
- WI,state,Wisconsin,11255
- WV,state,West Virginia,1501
- WY,state,Wyoming,610
+code	category	state	inventory
+ AK	state	Alaska	1663
+ AL	state	Alabama	13293
+ AR	state	Arkansas	6952
+ AZ	state	Arizona	22464
+ CA	state	California	80468
+ CO	state	Colorado	23004
+ CT	state	Conneticut	10906
+ DE	state	Delaware	2418
+ FL	state	Florida	73313
+ GA	state	Georgia	39623
+ HI	state	Hawaii	2995
+ IA	state	Iowa	4840
+ ID	state	Indiana	3501
+ IL	state	Illinois	38680
+ IN	state	Indiana	16465
+ KS	state	Kansas	7894
+ KY	state	Kentucky	13691
+ LA	state	Los Angeles	8528
+ MA	state	Massachusetts	17990
+ MD	state	Maryland	17707
+ ME	state	Maine	1920
+ MI	state	Mississippi	10328
+ MN	state	Minnesota	10996
+ MO	state	Missouri	16165
+ MS	state	Mississippi	6242
+ MT	state	Montana	1984
+ NC	state	North Carolina	37530
+ ND	state	North Dakota	1092
+ NE	state	Nebraska	4924
+ NH	state	New Hampshire	5694
+ NJ	state	New Jersey	27852
+ NM	state	New Mexico	4729
+ NV	state	Nevada	6887
+ NY	state	New York	27932
+ OH	state	Ohio	23311
+ OK	state	Oklahoma	9584
+ OR	state	Oregon	10352
+ PA	state	Pennsylvania	28130
+ RI	state	Rhode Island	1858
+ SC	state	South Carolina	9790
+ SD	state	South Dakota	1267
+ TN	state	Tennessee	19166
+ TX	state	Texas	94654
+ UT	state	Utah	10418
+ VA	state	Virginia	35259
+ VT	state	Vermont	1123
+ WA	state	Washington	23149
+ WI	state	Wisconsin	11255
+ WV	state	West Virginia	1501
+ WY	state	Wyoming	610
