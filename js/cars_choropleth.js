@@ -1,4 +1,4 @@
-Plotly.d3.csv('https://raw.githubusercontent.com/TheDataMavericks/DK/js/choro_us.csv', function(err, rows){
+Plotly.d3.csv('https://raw.githubusercontent.com/TheDataMavericks/DK/master/js/choro_us.csv', function(err, rows){
       function unpack(rows, key) {
           return rows.map(function(row) { return row[key]; });
       }
